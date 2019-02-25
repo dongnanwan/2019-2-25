@@ -1,3 +1,29 @@
-1aaaaaaaaaaaaaa
-bbbbbbbb
-cccccccccccc
+1.下载地址:http://msysgit.github.io/
+2.安装:Use Git from Git Bash only其他默认下一步
+3.配置环境变量path
+4.配置本地用户名和邮箱
+	(1)git config --global user.name 'ghx'
+	(2)git config --global user.email '214458064@qq.com'
+5.配置本地ssh，和远程ssh
+	(1)ssh-keygen -t rsa -C 214458064@qq.com
+	(2)然后一直按回车直到出现图形界面
+	(3)在C:\Users\ghx\.ssh找到id_rsa.pub，将公钥复制到github网站SSH and GPG keys中
+	(4)测试连通性:输入ssh -T git@github.com后再输入yes，如果C:\Users\ghx\.ssh下出现known_hosts证明成功
+6.新建本地git项目
+	(1)在项目根目录右键Git Bash Here，输入git init
+7.远程建立项目
+	(1)you profile->Respositories->New->输入项目名称
+8.本地项目和远程项目关联
+	(1)git remote add origin +远程项目SSH(git@github.com:dongnanwan/2019-2-25.git)
+9.第一次发布项目（本地->远程）
+	(1)git add .
+	(2)git commit -m '注释内容'
+	(3)git push -u origin master	
+10.第一次下载项目（远程->本地）
+	(1)git clone +远程项目SSH(git@github.com:dongnanwan/2019-2-25.git)git
+11.提交（本地->远程）
+	（1）git add .
+	（2）git commit -m '注释内容'
+	 (3) git push origin master
+12.更新(远程->本地)
+	(1)git pull
