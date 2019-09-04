@@ -1,29 +1,32 @@
-1.ÏÂÔØµØÖ·:http://msysgit.github.io/
-2.°²×°:Use Git from Git Bash onlyÆäËûÄ¬ÈÏÏÂÒ»²½
-3.ÅäÖÃ»·¾³±äÁ¿path
-4.ÅäÖÃ±¾µØÓÃ»§ÃûºÍÓÊÏä
+1.ï¿½ï¿½ï¿½Øµï¿½Ö·:http://msysgit.github.io/
+2.ï¿½ï¿½×°:Use Git from Git Bash onlyï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
+3.ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½path
+4.ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	(1)git config --global user.name 'ghx'
 	(2)git config --global user.email '214458064@qq.com'
-5.ÅäÖÃ±¾µØssh£¬ºÍÔ¶³Ìssh
+5.ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½sshï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ssh
 	(1)ssh-keygen -t rsa -C 214458064@qq.com
-	(2)È»ºóÒ»Ö±°´»Ø³µÖ±µ½³öÏÖÍ¼ÐÎ½çÃæ
-	(3)ÔÚC:\Users\ghx\.sshÕÒµ½id_rsa.pub£¬½«¹«Ô¿¸´ÖÆµ½githubÍøÕ¾SSH and GPG keysÖÐ
-	(4)²âÊÔÁ¬Í¨ÐÔ:ÊäÈëssh -T git@github.comºóÔÙÊäÈëyes£¬Èç¹ûC:\Users\ghx\.sshÏÂ³öÏÖknown_hostsÖ¤Ã÷³É¹¦
-6.ÐÂ½¨±¾µØgitÏîÄ¿
-	(1)ÔÚÏîÄ¿¸ùÄ¿Â¼ÓÒ¼üGit Bash Here£¬ÊäÈëgit init
-7.Ô¶³Ì½¨Á¢ÏîÄ¿
-	(1)you profile->Respositories->New->ÊäÈëÏîÄ¿Ãû³Æ
-8.±¾µØÏîÄ¿ºÍÔ¶³ÌÏîÄ¿¹ØÁª
-	(1)git remote add origin +Ô¶³ÌÏîÄ¿SSH(git@github.com:dongnanwan/2019-2-25.git)
-9.µÚÒ»´Î·¢²¼ÏîÄ¿£¨±¾µØ->Ô¶³Ì£©
+	(2)È»ï¿½ï¿½Ò»Ö±ï¿½ï¿½ï¿½Ø³ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½Î½ï¿½ï¿½ï¿½
+	(3)ï¿½ï¿½C:\Users\ghx\.sshï¿½Òµï¿½id_rsa.pubï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½Æµï¿½githubï¿½ï¿½Õ¾SSH and GPG keysï¿½ï¿½
+	(4)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½ssh -T git@github.comï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yesï¿½ï¿½ï¿½ï¿½ï¿½C:\Users\ghx\.sshï¿½Â³ï¿½ï¿½ï¿½known_hostsÖ¤ï¿½ï¿½ï¿½É¹ï¿½
+6.ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½gitï¿½ï¿½Ä¿
+	(1)ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Ä¿Â¼ï¿½Ò¼ï¿½Git Bash Hereï¿½ï¿½ï¿½ï¿½ï¿½ï¿½git init
+7.Ô¶ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿
+	(1)you profile->Respositories->New->ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½
+8.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½
+	(1)git remote add origin +Ô¶ï¿½ï¿½ï¿½ï¿½Ä¿SSH(git@github.com:dongnanwan/2019-2-25.git)
+9.ï¿½ï¿½Ò»ï¿½Î·ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½->Ô¶ï¿½Ì£ï¿½
 	(1)git add .
-	(2)git commit -m '×¢ÊÍÄÚÈÝ'
+	(2)git commit -m '×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'
 	(3)git push -u origin master	
-10.µÚÒ»´ÎÏÂÔØÏîÄ¿£¨Ô¶³Ì->±¾µØ£©
-	(1)git clone +Ô¶³ÌÏîÄ¿SSH(git@github.com:dongnanwan/2019-2-25.git)git
-11.Ìá½»£¨±¾µØ->Ô¶³Ì£©
-	£¨1£©git add .
-	£¨2£©git commit -m '×¢ÊÍÄÚÈÝ'
+10.ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Ô¶ï¿½ï¿½->ï¿½ï¿½ï¿½Ø£ï¿½
+	(1)git clone +Ô¶ï¿½ï¿½ï¿½ï¿½Ä¿SSH(git@github.com:dongnanwan/2019-2-25.git)git
+11.ï¿½á½»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½->Ô¶ï¿½Ì£ï¿½
+	ï¿½ï¿½1ï¿½ï¿½git add .
+	ï¿½ï¿½2ï¿½ï¿½git commit -m '×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'
 	 (3) git push origin master
-12.¸üÐÂ(Ô¶³Ì->±¾µØ)
+12.ï¿½ï¿½ï¿½ï¿½(Ô¶ï¿½ï¿½->ï¿½ï¿½ï¿½ï¿½)
 	(1)git pull
+
+
+	xxxxxxxxxx
